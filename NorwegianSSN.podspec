@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
   s.author = { "Hyper Interaktiv" => "teknologi@hyper.no" }
   s.social_media_url = "https://twitter.com/hyperoslo"
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.10'
   s.source = {
     :git => 'https://github.com/hyperoslo/NorwegianSSN.git',

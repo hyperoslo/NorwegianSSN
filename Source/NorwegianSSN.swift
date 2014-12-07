@@ -13,7 +13,7 @@ let NineteenthCenturyRange = NSMakeRange(500, 749-500+1)
 let TwentyFirstCenturyRange = NSMakeRange(500, 999-500+1)
 let TwentiethCenturyAlternateRange = NSMakeRange(900, 999-900+1)
 
-class NorwegianSSN {
+@objc class NorwegianSSN {
 
     private let firstWeightNumbers: [UInt]  = [3,7,6,1,8,9,4,5,2]
     private let secondWeightNumbers: [UInt] = [5,4,3,2,7,6,5,4,3,2]

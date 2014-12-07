@@ -17,7 +17,7 @@ if (ssn.isDNumber()) {
     self.runAndHide();
 }
 
-if (ssn.isFemale) {
+if (!ssn.isMale()) {
     println("Oh, it's a woman!");
     self.comesBack();
 }

@@ -20,6 +20,7 @@
 		BDD752E91A34E34A004673D3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BDD752EA1A34E34A004673D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BDD752EB1A34E50C004673D3 /* NorwegianSSN.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NorwegianSSN.podspec; sourceTree = "<group>"; };
+		BDEBF1FC1A34F7BF0092C97A /* SwiftBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBridging.h; sourceTree = "<group>"; };
 		BDF0BEC01A345EB7004D6591 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -77,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				BD6191531A33A861000DAB12 /* NorwegianSSN.swift */,
+				BDEBF1FC1A34F7BF0092C97A /* SwiftBridging.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -157,12 +159,20 @@
 		BD6191421A33A7C6000DAB12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				PRODUCT_MODULE_NAME = NorwegianSSN;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/SwiftBridging.h";
 			};
 			name = Debug;
 		};
 		BD6191431A33A7C6000DAB12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				PRODUCT_MODULE_NAME = NorwegianSSN;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Source/SwiftBridging.h";
 			};
 			name = Release;
 		};

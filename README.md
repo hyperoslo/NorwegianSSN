@@ -1,46 +1,38 @@
-#HYPNorwegianSSN
-
-[![Build Status](https://img.shields.io/travis/hyperoslo/HYPNorwegianSSN.svg?style=flat)](https://travis-ci.org/hyperoslo/HYPNorwegianSSN)
+#NorwegianSSN
 
 A convenient way of validating and extracting info from a Norwegian Social Security Number
 
 Reference http://www.kith.no/upload/5588/KITH1001-2010_Identifikatorer-for-personer_v1.pdf
 
 ``` objc
-HYPNorwegianSSN *ssn = [[HYPNorwegianSSN alloc] initWithString:@"xxxxxxxxxxx"];
+let ssn = NorwegianSSN.init(ssn:"xxxxxxxxxxx");
 
-if (ssn.isValid) {
+if (ssn.isValid()) {
     NSLog(@"Yeap, this is valid alright, tell me more about this so called person.");
-    [self gainInterest:YES];
+    self.gainInterest = true
 }
 
-// Or the shorthand version
-
-if ([HYPNorwegianSSN validateWithString:@"xxxxxxxxxxx"]) {
-    NSLog(@"Yeap, this is valid alright, tell me more about this so called person.");
-}
-
-if (ssn.isDNumber) {
-    NSLog(@"OMG! A potential swede");
-    [self runAndHide];
+if (ssn.isDNumber()) {
+    println("OMG! A potential swede");
+    self.runAndHide();
 }
 
 if (ssn.isFemale) {
-    NSLog(@"Oh, it's a woman!");
-    [self comesBack];
+    println("Oh, it's a woman!");
+    self.comesBack();
 }
 
-NSLog(@"Are you sure? Remember what happened last time?");
+println("Are you sure? Remember what happened last time?");
 
-if (!ssn.isMale) {
-    NSLog(@"Yeah I'm sure, this is not an Aerosmith song!");
-    [self startWhistlingOnTune:@"Aerosmith -  Dude (looks like a lady)"];
-    NSLog(@"Doh!");
+if (ssn.isFemale()) {
+    println("Yeah I'm sure, this is not an Aerosmith song!");
+    self.startWhistlingOnTune("Aerosmith -  Dude (looks like a lady")
+    println("Doh!");
 }
 
-if (ssn.age >= 18 && ssn.age < 35) {
-    NSLog(@"Dear diary, jackpot");
-    [self enableTheSmoulder:YES];
+if (ssn.age() >= 18 && ssn.age() < 35) {
+    println("Dear diary, jackpot");
+    self.enableTheSmoulder = true
 }
 
 ```
@@ -60,4 +52,4 @@ and if you're using this library we probably want to hire you.
 
 ## License
 
-HYPNorwegianSSN is available under the MIT license. See the [LICENSE](https://github.com/hyperoslo/HYPNorwegianSSN/raw/develop/LICENSE.md) file for more info.
+NorwegianSSN is available under the MIT license. See the [LICENSE](https://github.com/hyperoslo/NorwegianSSN/raw/develop/LICENSE.md) file for more info.

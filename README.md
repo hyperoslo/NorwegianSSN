@@ -5,33 +5,33 @@ A convenient way of validating and extracting info from a Norwegian Social Secur
 Reference http://www.kith.no/upload/5588/KITH1001-2010_Identifikatorer-for-personer_v1.pdf
 
 ``` objc
-let ssn = NorwegianSSN.init(ssn:"xxxxxxxxxxx");
+let ssn = NorwegianSSN.init(ssn:"xxxxxxxxxxx")
 
 if (ssn.isValid()) {
-    NSLog(@"Yeap, this is valid alright, tell me more about this so called person.");
+    NSLog(@"Yeap, this is valid alright, tell me more about this so called person.")
     self.gainInterest = true
 }
 
 if (ssn.isDNumber()) {
-    println("OMG! A potential swede");
-    self.runAndHide();
+    println("OMG! A potential swede")
+    self.runAndHide()
 }
 
 if (!ssn.isMale()) {
-    println("Oh, it's a woman!");
-    self.comesBack();
+    println("Oh, it's a woman!")
+    self.comesBack()
 }
 
-println("Are you sure? Remember what happened last time?");
+println("Are you sure? Remember what happened last time?")
 
 if (ssn.isFemale()) {
-    println("Yeah I'm sure, this is not an Aerosmith song!");
+    println("Yeah I'm sure, this is not an Aerosmith song!")
     self.startWhistlingOnTune("Aerosmith -  Dude (looks like a lady")
-    println("Doh!");
+    println("Doh!")
 }
 
 if (ssn.age() >= 18 && ssn.age() < 35) {
-    println("Dear diary, jackpot");
+    println("Dear diary, jackpot")
     self.enableTheSmoulder = true
 }
 

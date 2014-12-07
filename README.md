@@ -7,30 +7,30 @@ Reference http://www.kith.no/upload/5588/KITH1001-2010_Identifikatorer-for-perso
 ``` objc
 let ssn = NorwegianSSN.init(ssn:"xxxxxxxxxxx")
 
-if (ssn.isValid()) {
+if ssn.isValid() {
     NSLog(@"Yeap, this is valid alright, tell me more about this so called person.")
     self.gainInterest = true
 }
 
-if (ssn.isDNumber()) {
+if ssn.isDNumber() {
     println("OMG! A potential swede")
     self.runAndHide()
 }
 
-if (!ssn.isMale()) {
+if !ssn.isMale() {
     println("Oh, it's a woman!")
     self.comesBack()
 }
 
 println("Are you sure? Remember what happened last time?")
 
-if (ssn.isFemale()) {
+if ssn.isFemale() {
     println("Yeah I'm sure, this is not an Aerosmith song!")
     self.startWhistlingOnTune("Aerosmith -  Dude (looks like a lady")
     println("Doh!")
 }
 
-if (ssn.age() >= 18 && ssn.age() < 35) {
+if ssn.age() >= 18 && ssn.age() < 35 {
     println("Dear diary, jackpot")
     self.enableTheSmoulder = true
 }

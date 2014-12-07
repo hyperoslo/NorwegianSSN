@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD61914E1A33A838000DAB12 /* NorwegianSSNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61914D1A33A838000DAB12 /* NorwegianSSNTests.swift */; };
+		BD6191541A33A861000DAB12 /* NorwegianSSN.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6191531A33A861000DAB12 /* NorwegianSSN.swift */; };
+		BDF0BEC11A345EB7004D6591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF0BEC01A345EB7004D6591 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD6191481A33A838000DAB12 /* NorwegianSSNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NorwegianSSNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD61914C1A33A838000DAB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD61914D1A33A838000DAB12 /* NorwegianSSNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorwegianSSNTests.swift; sourceTree = "<group>"; };
+		BD6191531A33A861000DAB12 /* NorwegianSSN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NorwegianSSN.swift; sourceTree = "<group>"; };
+		BDD752E91A34E34A004673D3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BDD752EA1A34E34A004673D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BDF0BEC01A345EB7004D6591 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6191451A33A838000DAB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF0BEC11A345EB7004D6591 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD61913D1A33A7C6000DAB12 = {
+			isa = PBXGroup;
+			children = (
+				BDD752E91A34E34A004673D3 /* LICENSE.md */,
+				BDD752EA1A34E34A004673D3 /* README.md */,
+				BDF0BEC01A345EB7004D6591 /* Foundation.framework */,
+				BD6191521A33A84F000DAB12 /* Source */,
+				BD61914A1A33A838000DAB12 /* NorwegianSSNTests */,
+				BD6191491A33A838000DAB12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6191491A33A838000DAB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6191481A33A838000DAB12 /* NorwegianSSNTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD61914A1A33A838000DAB12 /* NorwegianSSNTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD61914D1A33A838000DAB12 /* NorwegianSSNTests.swift */,
+				BD61914B1A33A838000DAB12 /* Supporting Files */,
+			);
+			path = NorwegianSSNTests;
+			sourceTree = "<group>";
+		};
+		BD61914B1A33A838000DAB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD61914C1A33A838000DAB12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD6191521A33A84F000DAB12 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BD6191531A33A861000DAB12 /* NorwegianSSN.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6191471A33A838000DAB12 /* NorwegianSSNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD61914F1A33A838000DAB12 /* Build configuration list for PBXNativeTarget "NorwegianSSNTests" */;
+			buildPhases = (
+				BD6191441A33A838000DAB12 /* Sources */,
+				BD6191451A33A838000DAB12 /* Frameworks */,
+				BD6191461A33A838000DAB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NorwegianSSNTests;
+			productName = NorwegianSSNTests;
+			productReference = BD6191481A33A838000DAB12 /* NorwegianSSNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD61913E1A33A7C6000DAB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					BD6191471A33A838000DAB12 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = BD6191411A33A7C6000DAB12 /* Build configuration list for PBXProject "NorwegianSSN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD61913D1A33A7C6000DAB12;
+			productRefGroup = BD6191491A33A838000DAB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6191471A33A838000DAB12 /* NorwegianSSNTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6191461A33A838000DAB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6191441A33A838000DAB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD61914E1A33A838000DAB12 /* NorwegianSSNTests.swift in Sources */,
+				BD6191541A33A861000DAB12 /* NorwegianSSN.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD6191421A33A7C6000DAB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BD6191431A33A7C6000DAB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		BD6191501A33A838000DAB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = NorwegianSSNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD6191511A33A838000DAB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = NorwegianSSNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6191411A33A7C6000DAB12 /* Build configuration list for PBXProject "NorwegianSSN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6191421A33A7C6000DAB12 /* Debug */,
+				BD6191431A33A7C6000DAB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD61914F1A33A838000DAB12 /* Build configuration list for PBXNativeTarget "NorwegianSSNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6191501A33A838000DAB12 /* Debug */,
+				BD6191511A33A838000DAB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD61913E1A33A7C6000DAB12 /* Project object */;
+}

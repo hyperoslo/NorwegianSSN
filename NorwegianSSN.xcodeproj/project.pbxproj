@@ -19,6 +19,7 @@
 		BD6191531A33A861000DAB12 /* NorwegianSSN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NorwegianSSN.swift; sourceTree = "<group>"; };
 		BDD752E91A34E34A004673D3 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		BDD752EA1A34E34A004673D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BDD752EB1A34E50C004673D3 /* NorwegianSSN.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NorwegianSSN.podspec; sourceTree = "<group>"; };
 		BDF0BEC01A345EB7004D6591 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -39,6 +40,7 @@
 			children = (
 				BDD752E91A34E34A004673D3 /* LICENSE.md */,
 				BDD752EA1A34E34A004673D3 /* README.md */,
+				BDD752EB1A34E50C004673D3 /* NorwegianSSN.podspec */,
 				BDF0BEC01A345EB7004D6591 /* Foundation.framework */,
 				BD6191521A33A84F000DAB12 /* Source */,
 				BD61914A1A33A838000DAB12 /* NorwegianSSNTests */,
